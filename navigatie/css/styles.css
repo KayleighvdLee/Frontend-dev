@@ -1,0 +1,36 @@
+.menu {
+    background: #fbe0ee;
+    display: flex;
+    min-height: 30px;
+    text-align: right;
+} 
+
+.nav {
+    background: #fbe0ee;
+    display: flex;
+}
+
+li {
+    display: flex;
+    font-family: Tahoma, Gevena, sans-serif;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 5px 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+@media all and (max-width: 600px) {  
+    
+  .menu {  
+    flex-wrap: wrap;  
+  }  
+    
+  .menu > li {  
+    flex-basis: 50%;  
+  }
+
+}
